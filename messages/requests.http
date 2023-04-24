@@ -1,0 +1,17 @@
+### List all messages
+GET http://localhost:3000/messages
+
+### Get a message
+GET http://localhost:3000/messages/1
+
+### Create a message
+POST http://localhost:3000/messages
+
+```json
+{
+  "message": {
+    "title": "Hello",
+    "body": "World"
+  }
+}
+```
